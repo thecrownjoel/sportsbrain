@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+$font-stack: 'Source Sans Pro', sans-serif;
+
+body {
+    background-color: white;
+    color: black;
+    font-family: $font-stack;
+}
+.container {
+    max-width: 800px;
+    margin: auto;
+    border: 1px solid black;
+}
+#nbaSearch {
+    font-size: 3em;
+    margin: auto;
+}
+#nbaSubmit {
+    font-size: 3em;
+    margin: auto;
+}
